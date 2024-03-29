@@ -1,16 +1,31 @@
 // @import "./page/page.scss";
 body{
-    
+    margin: 0 ;
+}
+.basic{
+    border: 3px solid black;
+    width:1681px;
+// Выравниваем блок по середине 
+    margin: 0 auto;
+    align-content: flex-start;
 }
 
 // [x]menu 
 
+.menu{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
 .menu ul{
+    margin: 0 ;
+    border: 3px solid black;
     display:flex;
     list-style-type: none;
 }
 
 .menu a{
+
     font-size: 24px;
     line-height: 28px;
     color:rgb(11, 11, 11);
@@ -26,6 +41,9 @@ body{
 
 
 .menu__telephone{
+    
+ height: 50px; 
+ width: 200px;  
  background-color: #fcf48f;
 }
 
