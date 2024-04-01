@@ -1,52 +1,47 @@
 // @import "./page/page.scss";
-body{
-    margin: 0 ;
+body {
+  margin: 0;
 }
-.basic{
-    width:1681px;
-    margin: 0 auto;
+.basic {
+    margin-left: 20px;
+    margin-right: 2%;
     align-content: flex-start;
 }
 
-// [x]menu 
+// [x]menu
 
- .menu{
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
+.menu {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.menu ul{
-    //TODO border: 3px solid black;
-    display:flex;
-    list-style-type: none;
+.menu ul {
+  display: flex;
+  list-style-type: none;
 }
 
-.menu a{
-   
-    font-size: 16px;
-    line-height: 28px;
-    color:rgb(11, 11, 11);
-    text-decoration: none;
-    font-family: sans-serif;
+.menu a {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(11, 11, 11);
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
-.menu li + li{
-    margin-left: 30px;
+.menu li + li {
+  margin-left: 30px;
 }
 
-.menu__telephone{  
-    height: 50px; 
-    width: 200px;  
-    background-color: #fcf48f;
+.menu__telephone {
+  height: 50px;
+  width: 200px;
+  background-color: #fcf48f;
 }
 
-.menu__telephone a{
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 11px;
-    font-size: 18px;
+.menu__telephone a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 11px;
+  font-size: 18px;
 }
-
-
-
