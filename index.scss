@@ -1,4 +1,14 @@
 // @import "./page/page.scss";
+@font-face{
+  font-family: 'Roboto';
+  src:url('fonts/roboto-light.ttf');
+}
+
+/* *----------------
+* @param body
+*
+*/
+
 body {
    margin: 0;
   // display: flex;
@@ -6,16 +16,19 @@ body {
   // justify-content: center;
 
 }
-.basic {
-    border: 3px solid black;
-    margin-left: auto;
-    margin-right:auto;
-    max-width:1600px;
-   
-    // align-content: flex-start;
-}
+  .basic {
+      border: 3px solid black;
+      margin-left: auto;
+      margin-right:auto;
+      max-width:1600px;
+    
+      // align-content: flex-start;
+  }
 
-// [x]menu
+/* *----------------
+* @param menu
+*
+*/
 
 .menu {
   height: 50px;
@@ -23,87 +36,125 @@ body {
   justify-content: space-between;
 }
 
-.menu ul {
-  display: flex;
-  list-style-type: none;
-}
+  .menu ul {
+    display: flex;
+    list-style-type: none;
+  }
 
-.menu a {
-  font-size: 16px;
-  line-height: 28px;
-  color: rgb(11, 11, 11);
-  text-decoration: none;
-  font-family: sans-serif;
-}
+    .menu a {
+      font-size: 16px;
+      line-height: 28px;
+      color: rgb(11, 11, 11);
+      text-decoration: none;
+      font-family: sans-serif;
+    }
 
-.menu li + li {
-  margin-left: 30px;
-}
+    .menu li + li {
+      margin-left: 30px;
+    }
 
-.menu__telephone {
-  height: 50px;
-  width: 200px;
-  background-color: #fcf48f;
-}
+  .menu__telephone {                               // ?-[01]
+    height: 50px; 
+    width: 200px;
+    background-color: #fcf48f;                   // ?-[02]
+  }
 
-.menu__telephone a {
-  display: inline-block;
-  margin-left: 10px;
-  margin-top: 11px;
-  font-size: 18px;
-}
+  .menu__telephone a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-size: 18px;
+  }
 
-// [x]header
 
-.header{
-  border: 3px solid rgb(209, 30, 30); 
+/* *----------------
+* @param header
+*
+*/
+
+.header {
+  border: 3px solid hsl(0 74.9% 46.86%); 
   height: 746px;
 }
-.header_img{
+  .header_img {
     display: block;
     width: 100%;
     height:746px;
     object-fit: cover;
- 
-}
+  
+  }
 
-.overlay {
+  .overlay {
+    max-width:1155px;
     border: 3px solid rgb(6, 41, 181);
     position: relative;
     top: -650px;
     left: 50px;
-}
+  }
 
-.overlay_baner {
-  border: 3px solid rgb(11, 186, 22);
-}
-.overlay_img{
-  
-}
-.overlay_text {
- border: 3px solid rgb(224, 85, 5);
- width: 496px; 
- height:152px;
- font-family: roboto;
- font-size: 67px;
- color: antiquewhite;
-}
-.overlay_infa {
-  display: flex;
-}
-.overlay_block01 {
-  border: 3px solid black;
-  width: 383px;
-  height: 283px;
-}
-.overlay_block02 {
-  border: 3px solid black;
-  width: 383px;
-  height: 283px;
-}
-.overlay_block03 {
-  border: 3px solid black;
-  width: 383px;
-  height: 283px;
+    .overlay_baner {
+      border: 3px solid rgb(11, 186, 22);
+    }
 
-}
+      .overlay_img {
+
+        
+      }
+        // .overlay_text {
+        //  border: 3px solid rgb(224, 85, 5);
+        //  width: 470px; 
+        //  height:150px;
+        //  font-family: roboto;
+        //  font-size: 67px;
+        //  color: antiquewhite;
+        // }
+
+
+//* overlay_block
+
+    .overlay_block {
+      display: inline-flex;
+      flex-flow: row wrap;
+      // align-items: baseline;
+      // align-content: flex-start;
+     
+    }
+      .overlay_block01 {
+        background-color: rgb(39, 39, 39, 0.8);
+        // opacity: 0.8;
+        color: beige;
+        border: 1px solid black;
+        width: 383px;
+        height: 283px;
+      }
+    
+      .overlay_block02 {
+        border: 1px solid black;
+        width: 383px;
+        height: 283px;
+      }
+      .overlay_block03 {
+        border: 1px solid black;
+        width: 383px;
+        height: 283px;
+
+      }
+
+      .overlay_block04 {
+        border: 1px solid rgb(151, 11, 11);
+        width: 383px;
+        height: 283px;
+
+      }
+      .overlay_block05 {
+        border: 1px solid rgb(151, 11, 11);
+        width: 383px;
+        height: 283px;
+
+      }
+      .overlay_block06 {
+        border: 1px solid rgb(151, 11, 11);
+        width: 383px;
+        height: 283px;
+
+      }
