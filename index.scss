@@ -54,10 +54,10 @@ body {
       margin-left: 30px;
     }
 
-  .menu__telephone {                               // ?-[01]
+  .menu__telephone {
     height: 50px; 
     width: 200px;
-    background-color: #fcf48f;                   // ?-[02]
+    background-color: #fcf48f;
   }
 
   .menu__telephone a {
@@ -112,7 +112,7 @@ body {
       }
 
 //* overlay_block
-    
+ 
     .overlay_block {
       display: inline-flex;
       flex-flow: row wrap;
@@ -120,53 +120,29 @@ body {
       // align-content: flex-start;
      
     }
-      .overlay_block01 {
-        background-color: rgb(39, 39, 39, 0.8);
-        // opacity: 0.8;
+      .overlay_block01,
+      .overlay_block02,
+      .overlay_block03,
+      .overlay_block04,
+      .overlay_block05
+      {
+        background-color: rgb(39, 39, 39, 0.8);  // ?-[01]
         color: beige;
         border: 1px solid black;
         width: 383px;
         height: 283px;
-
       }
-        #arrow_block {
+      
+        .arrow_block {
           background-image: url('images/arrow.svg');
           height: 56px;
           width: 56px;
         }
 
-        #arrow_block:hover {
+        .arrow_block:hover {
           background-image: url('images/colored_arrow.svg');
         }
-    
-      .overlay_block02 {
-        background-color: rgb(39, 39, 39, 0.8);
-        border: 1px solid black;
-        width: 383px;
-        height: 283px;
-      }
-      .overlay_block03 {
-        background-color: rgb(39, 39, 39, 0.8);
-        border: 1px solid black;
-        width: 383px;
-        height: 283px;
-
-      }
-
-      .overlay_block04 {
-        background-color: rgb(39, 39, 39, 0.8);
-        border: 1px solid #f1b5f7;
-        width: 383px;
-        height: 283px;
-
-      }
-      .overlay_block05 {
-        background-color: rgb(39, 39, 39, 0.8);
-        border: 1px solid rgb(151, 11, 11);
-        width: 383px;
-        height: 283px;
-
-      }
+  
       .overlay_block06 {
         // border: 1px solid rgb(151, 11, 11);
         width: 383px;
