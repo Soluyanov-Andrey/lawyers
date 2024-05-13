@@ -1,0 +1,35 @@
+/* *----------------
+* @param substrate
+*
+*/
+
+.substrate__top {
+  border: 5px solid rgb(8, 27, 199);
+  width: 100%;
+  height: 700px;
+}
+  .substrate__img {
+    display: block;
+    width: 100%;
+    height:746px;
+    object-fit: cover;
+  
+  }
+    
+.substrate__bottom {
+  border: 5px solid rgb(192, 12, 12);
+  width: 100%;
+  height: calc(100% - 700px);
+}
+  .substrate__left {
+    border: 1px solid rgb(78, 192, 12);
+    float:left;
+    width: 100px;
+    height: 100%;
+  }
+  .substrate__right {
+    float:left;
+    border: 7px solid rgb(226, 206, 22);
+    width: calc(100% - 100px);
+    height: 100%;
+  }

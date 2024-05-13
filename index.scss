@@ -1,4 +1,13 @@
-// @import "./page/page.scss";
+@import 'zeroing.scss';
+@import 'index_small.scss';
+
+@import 'modul/menu/index.scss';
+@import 'modul/header/index.scss';
+  @import 'modul/header/substrate/index.scss';
+  @import 'modul/header/overlay/index.scss';
+  @import 'modul/header/overlay/info_block/index.scss';
+
+
 @font-face{
   font-family: 'Roboto';
   src:url('fonts/roboto-light.ttf');
@@ -25,128 +34,7 @@ body {
       // align-content: flex-start;
   }
 
-/* *----------------
-* @param menu
-*
-*/
 
-.menu {
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  // display: none;
-}
-
-  .menu ul {
-    display: flex;
-    list-style-type: none;
-  }
-
-    .menu a {
-      font-size: 16px;
-      line-height: 28px;
-      color: rgb(11, 11, 11);
-      text-decoration: none;
-      font-family: sans-serif;
-    }
-
-    .menu li + li {
-      margin-left: 30px;
-    }
-
-  .menu__telephone {
-    height: 50px; 
-    width: 200px;
-    background-color: #fcf48f;
-  }
-
-  .menu__telephone a {
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 11px;
-    font-size: 18px;
-  }
-
-
-/* *----------------
-* @param header
-*
-*/
-
-.header {
-  border: 3px solid hsl(0 74.9% 46.86%); 
-  height: 746px;
-}
-  .header_img {
-    display: block;
-    width: 100%;
-    height:746px;
-    object-fit: cover;
-  
-  }
-
-  .overlay {
-    margin-top: -650px;
-    margin-left: 115px;
-    max-width:1155px;
-    border: 3px solid rgb(6, 41, 181);
-    position: float;
-    // top: -350px;
-    // left: 0px;
-  }
-
-    .overlay_baner {
-      border: 3px solid rgb(11, 186, 22);
-    }
-
-      .overlay_img {
-
-        
-      }
-
-      .overlay_text {
-        max-width: 700px; 
-        color: aliceblue;
-        font-family: roboto;
-        font-size: 67px;
-      }
-
-//* overlay_block
- 
-    .overlay_block {
-      display: inline-flex;
-      flex-flow: row wrap;    
-    }
-     .overlay_block_interior
-      {
-        background-color: rgb(39, 39, 39, 0.8);  // ?-[01]
-        color: beige;
-        border: 1px solid black;
-        width: 383px;
-        height: 283px;
-      }
-      
-        .arrow_block {
-          background-image: url('images/arrow.svg');
-          height: 56px;
-          width: 56px;
-        }
-
-        .arrow_block:hover {
-          background-image: url('images/colored_arrow.svg');
-        }
-  
-      .overlay_block06 {
-        width: 383px;
-        height: 283px;
-
-      }
-      #clear{clear: both;}    
-.header_niz{
-  border: 5px solid rgb(19, 169, 36);
-  width: auto;
-  height: 100px;
-}
 
 /* *----------------
 * @param company_description
@@ -159,3 +47,4 @@ body {
   height: 200px;
 
 }
+

@@ -1,0 +1,28 @@
+.header {
+  display: grid;
+  border: 3px solid rgb(17, 48, 221);
+  width: 100%;
+  height: auto;
+}
+// .header:after  {
+//    content: "&nbsp;";
+//    display: block;
+//    clear: both;
+//    visibility: hidden;
+//    height: 0;
+//    line-height: 0;
+// }
+
+  .substrate  {
+  grid-area: 1 / 1;
+  // background-color: rgb(39, 39, 39, 0.8);  
+  
+  }
+
+  .overlay{
+  
+   
+  grid-area: 1 / 1;
+  // background-color: rgba(115, 228, 105, 0.8);  
+  // height: 100%;
+  }

@@ -1,0 +1,44 @@
+/* *----------------
+* @param menu
+*
+*/
+
+.menu {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    // display: none;
+  }
+  
+    .menu ul {
+      display: flex;
+      list-style-type: none;
+    }
+  
+      .menu a {
+        font-size: 16px;
+        line-height: 28px;
+        color: rgb(11, 11, 11);
+        text-decoration: none;
+        font-family: sans-serif;
+      }
+  
+      .menu li + li {
+        margin-left: 30px;
+      }
+  
+    .menu__telephone {
+      height: 50px; 
+      width: 200px;
+      background-color: #fcf48f;
+    }
+  
+    .menu__telephone a {
+      display: inline-block;
+      margin-left: 10px;
+      margin-top: 11px;
+      font-size: 18px;
+    }
+  
+  
+  
