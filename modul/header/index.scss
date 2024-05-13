@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  border: 3px solid rgb(17, 48, 221);
+  // border: 3px solid rgb(17, 48, 221);
   width: 100%;
   height: auto;
 }
@@ -21,7 +21,7 @@
 
   .overlay{
   
-   
+    margin-left: 50px;
   grid-area: 1 / 1;
   // background-color: rgba(115, 228, 105, 0.8);  
   // height: 100%;
