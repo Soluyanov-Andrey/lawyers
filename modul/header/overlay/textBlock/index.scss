@@ -68,3 +68,27 @@
       font-family: roboto;
       font-size: 35px; 
   }
+
+// TODO textBlockE media
+
+@media screen and (max-width: 1964px) {
+  .textBlockD{
+    background-color: rgb(39, 39, 39, 1);
+  }
+}
+
+@media screen and (max-width: 1581px) {
+  .textBlockC{
+    background-color: rgb(39, 39, 39, 1);
+  }
+}
+@media screen and (max-width: 1198px) {
+  .textBlockB{
+    background-color: rgb(39, 39, 39, 1);
+  }
+}
+@media screen and (max-width: 815px) {
+  .textBlockA{
+    background-color: rgb(39, 39, 39, 1);
+  }
+}
