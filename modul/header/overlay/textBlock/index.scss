@@ -3,7 +3,11 @@
 * @param textBlock
 *
 */
-.textBlock {
+.textBlock, 
+.textBlockA, 
+.textBlockB,
+.textBlockC,
+.textBlockD{
     background-color: rgb(39, 39, 39, 0.8);  // ?-[01]
     padding: 42px;
     height: 283px;
@@ -50,3 +54,22 @@
         background-image: url('images/colored_arrow.svg');
       }
 
+/* ----------------
+* @param textBlockE
+*
+*/
+.textBlockE{
+  background-color: rgb(255, 255, 255);  
+  padding: 42px;
+  height: 283px;
+  border-top: 1px solid rgb(31, 12, 1);
+  width: 383px;
+} 
+  .textBlockE__top{
+   width: auto; 
+  }
+    .textBlockE__top p {
+      color: rgb(0, 0, 0);
+      font-family: roboto;
+      font-size: 35px; 
+  }
