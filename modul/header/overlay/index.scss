@@ -30,3 +30,33 @@
   height: auto;
 }
 
+// TODO overlay media
+
+@media screen and (max-width: 320px) {
+ 
+  .overlay__el2 {
+  font-size: 50px;
+
+  }
+}
+@media screen and (max-width: 414px) {
+  .overlay__el2 {
+    font-size: 40px;
+   
+   }
+}
+@media screen and (max-width: 480px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+ 
+}
+
+@media screen and (max-width: 1200px) {
+ 
+}

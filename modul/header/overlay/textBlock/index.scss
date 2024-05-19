@@ -92,3 +92,30 @@
     background-color: rgb(39, 39, 39, 1);
   }
 }
+
+
+
+@media screen and (max-width: 320px) {
+ 
+}
+@media screen and (max-width: 480px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .textBlock, 
+  .textBlockA, 
+  .textBlockB,
+  .textBlockC,
+  .textBlockD{
+      width: 355px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+}
+
+@media screen and (max-width: 1200px) {
+ 
+}
