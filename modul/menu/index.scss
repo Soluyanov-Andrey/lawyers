@@ -7,6 +7,7 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
+    
     // display: none;
   }
   
@@ -14,6 +15,8 @@
       margin-top: 15px;
       display: flex;
       list-style-type: none;
+      // display: none;
+
     }
   
       .menu a {
@@ -41,5 +44,43 @@
       font-size: 18px;
     }
   
-  
-  
+    .img_menu {
+      display: none;
+      width: 25px;
+      height: 25px;
+      margin-top: 15px;
+      margin-right: 15px;
+    }
+    .img_menu img {
+      width: 25px;
+      height: 25px;
+    }
+
+// TODO menu
+
+@media screen and (max-width: 320px) {
+ 
+}
+@media screen and (max-width: 414px) {
+
+}
+@media screen and (max-width: 480px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .menu ul {
+    display: none;
+  }
+  .img_menu {
+    display:block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+}
+
+@media screen and (max-width: 1200px) {
+ 
+}
