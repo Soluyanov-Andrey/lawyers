@@ -1,0 +1,47 @@
+.modalWindow {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    right: 100%;
+  }
+  
+  .modalContent {
+    padding: 20px;
+  }
+  
+    .modalCloseButton{
+      width: 20px;                                       /* [X] устанавливаем ширину блока */
+      height: 20px;                                      /* [X] устанавливаем высоту блока */
+      background-size: 20px 20px;
+      background-image: url("./images/Vector1.svg");
+      float: right;
+      cursor: pointer;
+    }
+  
+    .modalCloseButton:hover{
+      background-image: url("./images/Vector2.svg");
+    }
+  
+  
+  
+  
+  /* Анимация выезда / уезда */
+  @keyframes slideIn {
+    0% {
+      right: 100%;
+    }
+    100% {
+      right: 0;
+    }
+  }
+  
+  @keyframes slideOut {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 100%;
+    }
+  }
