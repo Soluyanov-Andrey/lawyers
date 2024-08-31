@@ -11,7 +11,7 @@
     // display: none;
   }
   
-    .menu ul {
+    .menu > ul {
       margin-top: 15px;
       display: flex;
       list-style-type: none;
@@ -19,7 +19,7 @@
 
     }
   
-      .menu a {
+      .menu >ul li a {
         font-size: 16px;
         line-height: 28px;
         color: rgb(11, 11, 11);
@@ -27,7 +27,7 @@
         font-family: sans-serif;
       }
   
-      .menu li + li {
+      .menu  >ul li + li {
         margin-left: 30px;
       }
   
@@ -36,7 +36,11 @@
       width: 200px;
       background-color: #fcf48f;
     }
-  
+   .menu__telephoneA {
+    font-size: 20px;
+    color: rgb(16, 15, 15);
+   }
+
     .menu__telephone a {
       display: inline-block;
       margin-left: 10px;
@@ -72,7 +76,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .menu ul {
+  .menu > ul {
     display: none;
   }
 }

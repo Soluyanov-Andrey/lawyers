@@ -1,0 +1,50 @@
+// TODO textBlockE media
+
+@media screen and (max-width: 1964px) {
+    .textBlockD{
+      background-color: rgb(39, 39, 39, 1);
+    }
+  }
+  
+  @media screen and (max-width: 1581px) {
+    .textBlockC{
+      background-color: rgb(39, 39, 39, 1);
+    }
+  }
+  @media screen and (max-width: 1198px) {
+    .textBlockB{
+      background-color: rgb(39, 39, 39, 1);
+    }
+  }
+  @media screen and (max-width: 815px) {
+    .textBlockA{
+      background-color: rgb(39, 39, 39, 1);
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 320px) {
+   
+  }
+  @media screen and (max-width: 480px) {
+   
+  }
+  
+  @media screen and (max-width: 768px) {
+    .textBlock, 
+    .textBlockA, 
+    .textBlockB,
+    .textBlockC,
+    .textBlockD{
+        width: 355px;
+      }
+  }
+  
+  @media screen and (max-width: 1024px) {
+   
+  }
+  
+  @media screen and (max-width: 1200px) {
+   
+  }
